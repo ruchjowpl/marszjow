@@ -65,7 +65,7 @@ a:focus {
   background-size: cover;
   min-height: 70vh;
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .slider-container .slider .slider-item {
     background: url(../img/slider.jpg) no-repeat;
     background-size: 100%;

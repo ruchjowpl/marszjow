@@ -364,7 +364,7 @@ a:focus {
 }
 .footer {
   padding-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: #24458e;
   font-size: 34px;
   height: 40px;

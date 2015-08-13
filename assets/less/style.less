@@ -70,6 +70,13 @@ a {
       background-size: cover;
       min-height: 70vh;
 
+      @media (max-width: @mobile-width) {
+        background: url(../img/slider.jpg) no-repeat;
+        background-size: 100%;
+        min-height: 50vh
+      }
+
+
       img {
         max-width: 100%;
       }
@@ -385,8 +392,7 @@ a {
 
 .footer {
   padding-top: 50px;
-  margin-bottom: 50px;
-
+  padding-bottom: 50px;
   color: #24458e;
   font-size: 34px;
   height: 40px;
